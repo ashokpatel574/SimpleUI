@@ -4,10 +4,34 @@
   text-align: center;
   background-color: var(--footer-bg-color);
   color: var(--light-color);
-  padding: 2rem 4rem;
+  padding: 3rem 4rem;
+}
+
+.social_links {
+  gap: 2rem;
+}
+
+.social_links li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.social_links li a {
+  text-decoration: none;
+}
+
+.footer_container .link svg {
+  font-size: 2.8rem;
+  color: var(--light-color);
 }
 
 .footer_trademark {
-  font-size: 1.2rem;
-  margin-top: 1rem;
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 445px) {
+  .footer_container .link svg {
+    font-size: 2.4rem;
+  }
 }
