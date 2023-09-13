@@ -1,12 +1,18 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
 import SideBar from "../components/sideBar/SideBar";
 import { componentsData } from "../utils/utils";
+import { useEffect } from "react";
 
 const ComponentsPage = () => {
   const location = useLocation();
 
   const shouldRenderComponentPage =
     location.pathname !== "/" && location.pathname === `/components`;
+
+  // Automatically scrolls to top whenever pathname changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   return (
     <>

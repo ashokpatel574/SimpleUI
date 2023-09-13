@@ -229,3 +229,32 @@
     font-size: 1.6rem;
   }
 }
+
+@media (max-width: 312px) {
+  .header_container {
+    padding: 2.5rem 0.5rem;
+  }
+
+  .header_logo {
+    font-size: 1.6rem;
+  }
+
+  .searchInput_container input {
+    min-width: 5rem;
+    width: 100%;
+    font-size: 1.3rem;
+  }
+
+  .searchInput_container .searchBtn {
+    max-width: 7rem;
+    font-size: 1.3rem;
+  }
+
+  .header_nav-list {
+    gap: 0.5rem;
+  }
+
+  .header_nav-list li a {
+    font-size: 1.5rem;
+  }
+}
