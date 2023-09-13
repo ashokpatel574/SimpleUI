@@ -1,0 +1,39 @@
+.alert {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 1em;
+  font-size: 1.6em;
+  border-radius: 6px;
+  width: 100%;
+  gap: 0.5em;
+}
+
+.alert svg {
+  font-size: 2.4rem;
+}
+
+.alert.alert-success {
+  color: var(--light-color);
+  background-color: var(--success-color);
+}
+
+.alert.alert-error {
+  color: var(--light-color);
+  background-color: var(--error-color);
+}
+
+.alert.alert-warning {
+  color: var(--dark-color);
+  background-color: var(--warning-color);
+}
+
+.alert.alert-info {
+  color: var(--light-color);
+  background-color: var(--info-color);
+}
+
+@media (max-width: 425px) {
+  .alert {
+    font-size: 1.5em;
+  }
+}

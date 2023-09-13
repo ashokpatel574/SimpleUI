@@ -1,0 +1,13 @@
+.footer_container {
+  width: 100%;
+  margin-top: auto;
+  text-align: center;
+  background-color: var(--footer-bg-color);
+  color: var(--light-color);
+  padding: 2rem 4rem;
+}
+
+.footer_trademark {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}

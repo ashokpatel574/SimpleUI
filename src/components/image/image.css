@@ -1,0 +1,14 @@
+.imgType-full {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.imgType-round {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
